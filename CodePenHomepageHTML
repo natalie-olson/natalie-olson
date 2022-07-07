@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/d5f48cb6a4.js" crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\Owner\Downloads\HTML-CSS\CodepenProject\navbar.css">
+    
+</head>
+
+<body>
+    <!--Nav Wrap-->
+    <div class="navigation-wrapper">
+
+        <div class="left-column">
+            <img src="C:\Users\Owner\Downloads\HTML-CSS\CodepenProject\codepen-wordmark-display-inside-white@10x_163987fcdd.avif" alt="Codepen Logo">
+        </div>
+
+        <div class="center-column">
+                <p>Explore</p>
+
+            <div class="links-wrapper">
+    
+                <div class="nav-link">
+                    <b>Pens</b>
+                </div>
+    
+                <div class="nav-link">
+                    <b>Projects</b>
+                </div>
+    
+                <div class="nav-link">
+                    <b>Posts</b>
+                </div>
+    
+                <div class="nav-link">
+                    <b>Collections</b>
+                </div>
+
+                <div class="nav-link">
+                    <span class="with-drop-down">Spark 
+                        <span id="greychevron">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+<!--Address-->
+        <div class="right-column">
+            <div class="buttons"> 
+                    <button type="submit" class="btn">Create
+                        <span id="tealchevron"><i class="fa-solid fa-chevron-down"></i></span>
+                    </button>
+            </div>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div> 
+        
+            <div class="buttons">
+                <button type="submit" class="btn">Login</button>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="btn">Sign Up</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="PageCenter">
+        <div class="column1">
+        <div class="Text">
+
+            <div class="BigText">
+                <p>CodePen is a <b>social developmet environment</b> for front-end 
+                    designers and developers. &#128075;</p>
+            </div>
+
+            <div class="LittleText">
+                <p> It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
+            </div>
+        </div>
+
+        <div class="center-buttons">
+            <button type="submit" id="greenbtn"><b>Sign Up for Free</b></button>
+            <button type="submit" id="blackbtn"><b>Learn More</b></button>
+        </div>
+        </div>
+
+        <div class="column2">
+            <p> This is <span class="bluetext">CodePen projects</span>!</p>
+            <div class="sampletext">
+                <img src="C:\Users\Owner\Downloads\HTML-CSS\CodepenProject\sample-text.png" alt="Sample Text">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <table class="footertable">
+            <tbody>
+            <tr>
+            <td>CodePen for <span class="big">TEAMS</span></td>
+            <td>CodePen for <span class="big">EDUCATION</span></td>
+            <td>CodePen for <span class="big">PRIVACY</span></td>
+            <td>CodePen for <span class="big">WRITING</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+<div class="spacer60"></div>
+
+</body>
+</html>
